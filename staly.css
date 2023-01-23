@@ -1,0 +1,154 @@
+/*--------------------------*/
+/*---strat-up--------------*/
+/*--------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    font-size: 20px;
+    font-family: 'lato', 'Arial', sans-serif;
+    color: #292626;
+}
+
+
+
+h1{
+    font-size: 100px;
+    font-family: "lato";
+    
+}
+h2,h1{
+    border-radius: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3px;
+    text-align: center;
+    /*----animation--*/
+    color: rgba(9, 9, 237, 0.89);
+    animation-name: sign;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    width: 900px;
+    height: auto;
+}
+
+/*--------------------------*/
+/*-----heard-sign-up-------*/
+/*--------------------------*/
+
+.home_section{
+    background-image:url(img/sea-freight.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+/*--------------------------*/
+/*-------sign-up-css---- */
+/*---------------------------*/
+
+.sign-up {
+    width: 200px;
+    margin-top: 50px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #fff;
+}
+
+.sign-up:hover,
+.sign-up:active{
+    background-color: rgba(32, 32, 232, 0.77);
+}
+
+@keyframes sign {
+  0%   {color: rgba(98, 0, 255, 0.94);}
+  25%  {color: rgba(128, 25, 76, 0.94);}
+  50%  {color: rgba(14, 14, 175, 0.85);}
+  100% {color: rgba(32, 123, 123, 0.9);}
+}
+
+.sign-up a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 300%;
+}
+
+/*------------------------------------*/
+/*---------------nav-bar-------*/
+/*--------------------------------------*/
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(196, 224, 252, 0.6);
+    box-shadow: 0 3px 5px rgba(126, 156, 224, 0.88);
+    
+}
+
+.label {
+    font-size: 150%;
+    color: #fff;
+}
+
+.list-nav {
+    display: flex;
+}
+
+.list-nav li{
+    list-style: none;
+    padding-right: 30px;
+    padding-top: 10px;
+    font-size: 120%;
+}
+.list-nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+.list-nav li a:hover,
+.list-nav li a:active{
+    color: rgba(44, 56, 203, 0.78);
+    transition: 0.5s;
+}
+
+.select-l {
+    width: 160px;
+    margin-right: 30px;
+    margin-left:5px;
+}
+
+
+
+
+/*------------------------------------*/
+/*------------section-home----*/
+/*--------------------------------------*/
+
+.logo-top  img{
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.tukpout {
+    text-align: left;
+}
+
+.log-name-1,
+.log-name-2{
+    font-size: 100px;
+    color: #fff;
+    font-family: 'Arila';
+}
